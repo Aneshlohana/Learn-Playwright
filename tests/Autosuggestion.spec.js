@@ -1,5 +1,8 @@
 const {test, expect} = require('@playwright/test')
 
+test("Verify Application Title Using Keyboard", async ({page})=>{
+})
+
 test("Verify Application Title Using Loop", async ({page})=>{
 
   await page.goto("http://www.google.com")
